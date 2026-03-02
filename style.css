@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f8f9fa;
+}
+
+/* ===== NAVBAR ===== */
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 100px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+header nav a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+/* ===== HOME ===== */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 100px;
+    min-height: 100vh;
+}
+
+.home-text h1 {
+    font-size: 40px;
+}
+
+.home-text h2 {
+    font-size: 45px;
+}
+
+.home-text span {
+    color: orange;
+}
+
+.home-text p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #5f27cd;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.social a {
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 22px;
+    color: black;
+}
+
+.home-img img {
+    width: 350px;
+    border-radius: 50%;
+}
+
+/* ===== SECTION ===== */
+section {
+    padding: 100px;
+}
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.skill-box {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #eee;
+    margin: 10px;
+    border-radius: 20px;
+}
